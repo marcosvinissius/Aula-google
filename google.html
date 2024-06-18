@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>google</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        form{
+            padding: 10px;
+            background-color: rgb(53, 53, 53);
+            width: 300px;
+            margin: auto;
+            text-align: center;
+        }
+        label{
+            color: white;
+            font-size: initial;
+        }
+        input{
+            display: block;
+            width: 100%;
+            margin: 5px 0px 10px 0px;
+        }
+        button{
+            border: none;
+            background-color: darkred;
+            color: whitesmoke;
+            padding: 8px 5px 8px 5px;
+            border-radius: 10px;
+            display: block;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <form action="https://www.google.com/search" method="get">
+        <label for="">Pesquisar</label>
+        <input type="text" name='q'>
+        <button>Enviar</button>
+    </form>
+</body>
+</html>
